@@ -24,6 +24,7 @@ public class LoadingExperienceEntity {
 
     @Getter
     @Setter
+    @Column(unique = true)
     private String initialURL;
 
     @OneToMany(mappedBy = "loadingExperienceEntity", cascade = CascadeType.ALL, orphanRemoval = true)
