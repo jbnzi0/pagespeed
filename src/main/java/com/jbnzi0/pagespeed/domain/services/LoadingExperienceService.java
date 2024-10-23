@@ -26,7 +26,7 @@ public class LoadingExperienceService {
         String normalizedURL = urlService.normalizeURL(url);
         System.out.println("normalizedURL" + normalizedURL);
 
-        return loadingExperienceRepository.findByURL(normalizedURL);
+        return loadingExperienceRepository.findByInitialURL(normalizedURL);
     }
 
     @Transactional
