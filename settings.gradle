@@ -4,4 +4,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'metrics.api'
+rootProject.name = 'pagespeed'
